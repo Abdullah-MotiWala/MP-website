@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* header starts */
+
+div.header {
+    background-color: #9D6B53;
+    width: 100vw;
+    display: flex;
+    padding: 5px;
+    height: 40px;
+    justify-content: space-between;
+}
+
+div.headLine {
+    font-size: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 180px;
+}
+
+div.headLine2 {
+    font-size: 10px;
+    width: 180px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 7px;
+    text-align: center;
+    color: #000;
+    float: right;
+}
+
+.storeIcon {
+    width: 15px;
+    margin-right: 5px;
+}
+
+/* navbar in header Starts */
+
+.navbar, .navItem {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #4E2715;
+    color: white;
+}
+
+.navbar {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.dropDown, .searchIcon {
+    width: 10px;
+}
+
+img.flag {
+    width: 40px;
+}
+
+input.searchBar {
+    background: url(./Icons/search-solid.svg) top right;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    border: 0;
+    color: #000;
+    font-size: 12px;
+    background-color: #fff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+div.searchBar {
+    color: #E6B8A2;
+    height: 100%;
+    width: 350PX;
+    float: right;
+}
+
+div.prodNav {
+    background-color: #E6B8A2;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+div.flag {
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+img.cartIcon {
+    width: 20px;
+}
+
+/* navbar in header Finish */
+
+/* header Finish */
+
+/* Curosial Starts */
+
+div.carousel-item, div.carousel-item>img {
+    height: 500px;
+}
+
+p.text1 {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    line-height: 50px;
+}
+
+p.text2 {
+    color: white;
+    position: absolute;
+    left: 150px;
+    top: 400px;
+}
+
+/* Curosial Finishs */
+
+/* Extra Cards Starts */
+
+div.extraCards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+div.extraCard {
+    background-color: #EDC4B3;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+img.pro {
+    width: 150px;
+    position: relative;
+    right: -20%;
+    top: 100px;
+}
+
+div.text {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+p.texts1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+button.text {
+    width: 100px;
+    border-radius: 10px;
+    border: hidden;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+/* Extra Cards Finish */
+
+/* Recent Discount Start */
+
+div.discounts{
+    display: flex;
+    justify-content: space-around;
+}
+div.cardDiscount {
+    display: flex;
+    padding: 25px;
+    height: 380px;
+    width: 20vw;
+    display: flex;
+    font-size: 15px;
+    flex-direction: column;
+    box-shadow: gainsboro 2px 2px 2px 2px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+p.discount, p.headactivePro {
+    font-weight: bold;
+    font-size: 30px;
+    color: #D69F7E;
+    margin: 20px 0 auto 70px;
+}
+p.strike{
+    text-decoration: line-through;
+    margin-left: 15px;
+}
+img.discount {
+    width: 250PX;
+}
+
+div.price {
+    display: flex;
+}
+
+div.stars {
+    display: flex;
+    width: 20px;
+    align-items: center;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+div.rating {
+    display: flex;
+    align-items: center;
+}
+
+div.sale {
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    color: #fff;
+    height: 25px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+p.text1Dis {
+    color: #3b3c36;
+    font-size: 10px;
+}
+
+/* Recent Discount Finish */
+/* ActivePromotions Finish */
+div.activeCard{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 350px;
+    background-color: #C38E70;
+    align-items: center;
+    padding: 10px;
+    border-radius: 25px;
+}
+img.active{
+    width: 100%;
+    height: 200px;
+}
+p.activePro{
+    color: #fff;
+    font-size:20px;
+    position: relative;
+    right: 40px;
+}
+button.activePro{
+    border-radius: 50px;
+    border: none;
+    width: 150px;
+}
+div.activeDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* ActivePromotions Starts */
